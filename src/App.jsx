@@ -1,4 +1,4 @@
-import Footer from "./assets/components/Footer/footer";
+import Footer from "./assets/components/Footer/Footer";
 
 const App  = () => {
   return ( 

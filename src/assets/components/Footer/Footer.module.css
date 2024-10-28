@@ -1,0 +1,29 @@
+.footerPremium{
+    background-color: #1F1F1F;
+    color: white; /* color dos textos */
+}
+
+.footerGeral{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.footerGeral a {
+    text-decoration: none;
+    color: white; /* color dos links */
+    
+}
+.footerGeral li {
+    list-style: none;
+
+}
+
+.informacao {
+    
+}
+
+.rodape {
+    display: block;
+}
+
