@@ -1,0 +1,93 @@
+nav {
+    display: inline-block;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(243, 243, 245, 0.845) 0px 1px 0px;
+    z-index: 1;
+    border: transparent;
+}
+
+img.logo {
+    display: inline-flex;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+div.input-search {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+}
+div.input-search input {
+    outline: none;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0.6rem;
+    background-color: #f5f5f5;
+    border: none;
+    width: 400px;
+    border-radius: 0.3rem;
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+}
+
+button.lupa {
+    position: absolute;
+    background-color:#f5f5f5;
+    border: none;
+    border-radius:2px;
+    z-index: 5;
+    left: 24rem;
+    padding: 9px 10px 10px 9px;
+
+}
+
+button.lupa:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);   
+}
+
+div.menu-links ul { 
+   display: flex;
+   list-style: none;
+   gap: 10px;
+}
+
+div.menu-links a {     /* cadastro */
+    color: #474747;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+div.menu-links button {
+    background: #C92071;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div.menu-links button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);   
+}
+
+div.menu-links button:focus {
+    border: 1px solid rgb(32, 31, 31);
+}

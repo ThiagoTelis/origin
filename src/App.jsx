@@ -1,8 +1,12 @@
-import Footer from "./assets/components/Footer/Footer";
+import Paths from "./Routes.jsx/Paths";
+
+
 
 const App  = () => {
   return ( 
-      <Footer/>
+      <>
+       <Paths/>
+      </>
    );
 }
  
